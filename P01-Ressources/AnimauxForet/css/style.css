@@ -1,0 +1,37 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+  background-image: url(../images/bg.jpg);
+}
+h1
+{
+  text-align: center;
+  color: green;
+}
+.galerie
+{
+  box-sizing: border-box;
+  display:flex ;
+  flex-flow: wrap row;
+  justify-content: flex-start;
+  max-width: 1200px;
+}
+img{
+  height: 150px;
+  width: 150px;
+  justify-content: flex-start;
+  display: flex;
+  border: solid white 0.3rem;
+animation: ;
+}
+.galerie:hover img
+{
+  filter: sepia(100%);
+  transform: scale(85%);
+}
+.galerie img:hover
+{
+  transform: scale(1.5, 1.5);
+  filter: sepia(0%)
+}
+
